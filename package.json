@@ -13,11 +13,11 @@
     "@types/node": "^20.9.0",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
-    "autoprefixer": "^10.4.16",
+    "autoprefixer": "^10.4.17",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.4",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.5"
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
   },
   "dependencies": {
     "@tinacms/cli": "^1.5.34",
