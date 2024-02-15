@@ -12,10 +12,7 @@ import { GlobalHeader } from "../tina/__generated__/types";
 import { client } from "../tina/__generated__/databaseClient";
 
 const Header = ( {data} : { data: GlobalHeader }) => {
-  // const { pathname } = useRouter();
   const pathname = usePathname();
-
-  console.log(pathname);
   
 
   const [isClient, setIsClient] = React.useState(false);
@@ -81,7 +78,9 @@ const Header = ( {data} : { data: GlobalHeader }) => {
               src={data!.image!.src}
               alt='Resonator Logo'
               fill
+              sizes="309px"
               style={{objectFit:"cover"}}
+              priority
               />
           </Link> : null
         }
