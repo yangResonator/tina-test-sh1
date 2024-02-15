@@ -8,22 +8,30 @@
     "color": "default",
     "nav": [
       {
-        "href": "",
+        "href": "home",
         "label": "Home"
+      },
+      {
+        "href": "work",
+        "label": "Work"
+      },
+      {
+        "href": "team",
+        "label": "Team"
       },
       {
         "href": "about",
         "label": "About"
-      },
-      {
-        "href": "posts",
-        "label": "Blog"
       }
     ],
     "navRight": [
       {
-        "href": "test",
-        "label": "Test"
+        "href": "make-good",
+        "label": "Make Good"
+      },
+      {
+        "href": "contact",
+        "label": "Contact"
       }
     ]
   },
