@@ -1,0 +1,42 @@
+{
+  "header": {
+    "image": {
+      "src": "/logo.png",
+      "alt": "Resonator Logo"
+    },
+    "name": "",
+    "color": "default",
+    "nav": [
+      {
+        "href": "",
+        "label": "Home"
+      },
+      {
+        "href": "about",
+        "label": "About"
+      },
+      {
+        "href": "posts",
+        "label": "Blog"
+      }
+    ],
+    "navRight": [
+      {
+        "href": "test",
+        "label": "Test"
+      }
+    ]
+  },
+  "footer": {
+    "color": "default",
+    "social": {
+      "facebook": "/",
+      "twitter": "/",
+      "instagram": "/"
+    }
+  },
+  "theme": {
+    "font": "sans",
+    "darkMode": "system"
+  }
+}
